@@ -2,51 +2,55 @@ import React from 'react'
 
 import {
     DiHtml5, 
-    DiCss3, 
+    DiCss3Full, 
     DiJsBadge, 
     DiNodejsSmall, 
     DiPython, 
-    DiReact
+    DiReact,
+    DiJqueryLogo,
+    DiJava,
 } from "react-icons/di";
+
+  import {SiTypescript, SiJquery} from "react-icons/si"
   
   import "../styles/components/technologiescontainer.sass";
   
   const technologies = [
     { 
-      id: "html",
-      name: "HTML5",
-      describe: "HTML é uma linguagem de marcação utilizada na construção de páginas na Web.",
-      icon: <DiHtml5/> 
-    },
-    { 
-      id: "css", 
-      name: "CSS3", 
-      describe: "Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web.",
-      icon: <DiCss3/> 
-      },
-    { 
-      id: "js",
-      name: "JavaScript", 
-      describe: "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.", 
-      icon: <DiJsBadge/> 
+      id: "react", 
+      name: "React", 
+      describe: "Participei da criação e atuo na manutenção de duas aplicações PWA de Onboarding da minha empresa, visando facilitar a contratação de novos colaboradores, tendo em vista a grande demanda interna da empresa, que atua na área de construção civil. Mensalmente temos em torno de 700 a 1200 contratações.", 
+      icon: <DiReact/> 
     },
     { 
       id: "node", 
       name: "Node.js", 
-      describe: "Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.",
+      describe: "O Node.js faz parte do meu dia a dia, com a criação e manutenção de APIs e ChatBot, possuo experiencia com: Express, Axios, Restify, Swagger, Dotenv, JWT, PdfMake, Nodemon, Jest, Oauth e Microsoft Bot Framework.",
       icon: <DiNodejsSmall/> 
     },
     { 
-      id: "python",
-      name: "Python", 
-      describe: "Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.", 
-      icon: <DiPython/> 
+      id: "TypeScript",
+      name: "TypeScript",
+      describe: "Além de usá-la na criação de novos projetos, atualmente na empresa que atuo estamos migrando todos os projetos possíveis para o TypeScript, para que tenhamos uma melhor performance no código como um todo, e para que diminua as chances de possíveis bugs por problema de tipagem.",
+      icon: <SiTypescript/> 
     },
     { 
-      id: "react", 
-      name: "React", 
-      describe: "O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.", 
-      icon: <DiReact/> 
+      id: "java",
+      name: "Java", 
+      describe: "Atuo na manutenção e criação de Formulários em nosso Business Process Management (Fluig), utilizamos Java e JavaScript (JQuery) em conjunto, para atender os requisitos de arquitetura",
+      icon: <DiJava/> 
+    },
+    { 
+      id: "css", 
+      name: "CSS3", 
+      describe: "O CSS é constante durante minha jornada, utilizo o Bootstrap e MUI em diferentes projetos. Em projetos pessoais gosto de complementar com o SassScript, pois facilita a componentização de Styles.",
+      icon: <DiCss3Full/> 
+    },
+    { 
+      id: "JQuery",
+      name: "jQuery", 
+      describe: "Como dito anteriormente utilizo o Jquery constantemente, tornando a programação mais ágil e simplificada.", 
+      icon: <SiJquery/> 
     },
   ];
   

@@ -11,7 +11,7 @@ const ProjectsContainer = () => {
     <section className="projects-container">
       <h2>Projetos</h2>
       <p style={space}>
-        Quer conferir meus projetos prontos ou que estão em andamento? clique no botão abaixo para ser direcionado ao meu Git. Obrigado :D
+        Quer conferir meus projetos prontos ou que estão em andamento? clique no botão abaixo para ser direcionado a minha humilde lista. Obrigado :D
       </p>
       <nav>
        <ButtonMain
